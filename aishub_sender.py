@@ -11,7 +11,7 @@ serial_port = '/dev/ttyACM0'
 baudrate = 38400
 
 #Change this for your usecase
-aishub_address = ('aishub', 1111)
+aishub_address = ('aishubip', 1111)
 
 if __name__ == '__main__':
     UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
